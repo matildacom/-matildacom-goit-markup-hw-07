@@ -61,23 +61,23 @@
     </header>
     <main>
       <section class="portfolio">
-        <div class="container">
+        <div class="container catalog-container">
           <h1 hidden>Catalog</h1>
-          <ul class="btn-list">
-            <li class="btn-item">
-              <button type="button" class="portfolio-all-btn">Все</button>
+          <ul class="catalog__list">
+            <li class="catalog__item">
+              <button type="button" class="catalog__all-btn">Все</button>
             </li>
-            <li class="btn-item">
-              <button type="button" class="portfolio-btn">Веб-сайты</button>
+            <li class="catalog__item">
+              <button type="button" class="catalog__btn">Веб-сайты</button>
             </li>
-            <li class="btn-item">
-              <button type="button" class="portfolio-btn">Приложения</button>
+            <li class="catalog__item">
+              <button type="button" class="catalog__btn">Приложения</button>
             </li>
-            <li class="btn-item">
-              <button type="button" class="portfolio-btn">Дизайн</button>
+            <li class="catalog__item">
+              <button type="button" class="catalog__btn">Дизайн</button>
             </li>
-            <li class="btn-item">
-              <button type="button" class="portfolio-btn">Маркетинг</button>
+            <li class="catalog__item">
+              <button type="button" class="catalog__btn">Маркетинг</button>
             </li>
           </ul>
           <ul class="portfolio-container">
@@ -277,28 +277,28 @@
       <div class="footer-container">
         <div class="address-box">
           <!--logo-->
-          <a href="" class="logo-footer"
-            >Web<span class="colortext-footer">Studio</span></a
+          <a href="" class="footer__logo"
+            >Web<span class="footer__colortext">Studio</span></a
           >
           <address class="address">
-            <ul class="address-list">
-              <li class="footer-item">г. Киев, пр-т Леси Украинки, 26</li>
-              <li class="footer-item">
-                <a href="" class="mail" lang="en">info@example.com</a>
+            <ul class="address__list">
+              <li class="address__item">г. Киев, пр-т Леси Украинки, 26</li>
+              <li class="address__item">
+                <a href="" class="address__link" lang="en">info@example.com</a>
               </li>
-              <li class="footer-item">
-                <a href="" class="tel">+38 099 111 11 11</a>
+              <li class="address__item">
+                <a href="" class="address__link">+38 099 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
-        <div class="social-box">
-          <p class="join">присоединяйтесь</p>
-          <ul class="social-list">
-            <li class="social-item">
+        <div class="social">
+          <p class="social__text">присоединяйтесь</p>
+          <ul class="social__list">
+            <li class="social__item">
               <a
                 href=""
-                class="social-link-footer"
+                class="social__link--footer"
                 rel="noopener noreferrer"
                 aria-label="icon instagram"
               >
@@ -307,10 +307,10 @@
                 </svg>
               </a>
             </li>
-            <li class="social-item">
+            <li class="social__item">
               <a
                 href=""
-                class="social-link-footer"
+                class="social__link--footer"
                 rel="noopener noreferrer"
                 aria-label="icon twitter"
               >
@@ -319,10 +319,10 @@
                 </svg>
               </a>
             </li>
-            <li class="social-item">
+            <li class="social__item">
               <a
                 href=""
-                class="social-link-footer"
+                class="social__link--footer"
                 rel="noopener noreferrer"
                 aria-label="icon facebook"
               >
@@ -331,10 +331,10 @@
                 </svg>
               </a>
             </li>
-            <li class="social-item">
+            <li class="social__item">
               <a
                 href=""
-                class="social-link-footer"
+                class="social__link--footer"
                 rel="noopener noreferrer"
                 aria-label="icon linkedin"
               >
@@ -345,15 +345,16 @@
             </li>
           </ul>
         </div>
+
         <div class="submit">
           <strong class="submit-title">Подпишитесь на рассылку</strong>
           <form class="footer-form">
-            <label for="E-mail"></label>
+            <label for="email"></label>
             <input
               class="email"
-              type="E-mail"
-              name="E-mail"
-              id="E-mail"
+              type="email"
+              name="email"
+              id="email"
               placeholder="E-mail"
             />
             <button class="submit-button" type="submit">

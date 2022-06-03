@@ -385,7 +385,7 @@ margin-right: 10px;
 }
 /*clients*/
 
-.clients{
+.clients__list{
 display:flex;
 }
 .clients__item{
@@ -429,7 +429,7 @@ margin-right: 30px;
     align-items: baseline;
   }
   
-.logo-footer{
+.footer__logo{
     margin-bottom: 20px ;
     font-family: 'Raleway';
     font-weight: 700;
@@ -439,25 +439,25 @@ margin-right: 30px;
     color: var(--accent);
     text-decoration: none;
 }
-.colortext-footer {
+.footer__colortext {
     color: var(--text-color);
 }
 .address{
     margin-top: 20px;
 }
-.address-list{
+.address__list{
     padding-left: 0;
     font-size: 14px;
     font-style: normal;
     color: var(--text-color);
 }
-.footer-item{
+.address__item{
     margin-bottom: 9px;
 }
-.footer-item:last-child{
+.address__item:last-child{
     margin-bottom: 0;
 }
-.mail{
+.address__link{
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
@@ -467,40 +467,26 @@ margin-right: 30px;
     transition-property: color;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--timing-function);}
-.mail:hover,
-.mail:focus{
+.address__link:hover,
+.address__link:focus{
     color: var(--accent);
     color: var(--accent);
 }
-  .tel  {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
-    transition-property: color;
-    transition-duration: var(--transition-duration);
-    transition-timing-function: var(--timing-function);
-}
-.tel:hover,
-.mail:focus{
-    color: var(--accent);
-}
+  
 .address-box{
     margin-right: 70px;
     justify-content: center;
 }
-.social-box{
+
+
+.social{
     margin-top: 0;
     margin-right: 109px;
     justify-content: center;
     display:inline-block;
     align-items: baseline;
 }
-
-.join{
-    
+.social__text{
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 1.14;
@@ -509,7 +495,16 @@ margin-right: 30px;
     text-transform: uppercase;
     color: var(--text-color);
 }
-.social-link-footer{
+social-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+social__item:not(:last-child) {
+    margin-right: 10px;}
+
+
+.social__link--footer{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -522,10 +517,10 @@ margin-right: 30px;
         transition-duration: var(--transition-duration);
         transition-timing-function: var(--timing-function);
 }
-.social-link-footer:hover{
+.social__link--footer:hover{
     background-color: var(--accent);
 }
-.social-link-footer:focus{
+.social__link--footer:focus{
     background-color: var(--accent);
 }
 
@@ -586,19 +581,19 @@ margin-right: 30px;
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.btn-list{
+.catalog__list{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
 }
-.btn-item{
+.catalog__item{
     margin-right: 8px;
 }
-.btn-item:last-child{
+.catalog__item:last-child{
     margin-right: 0;
 }
-.portfolio-btn{
+.catalog__btn{
     padding: 6px 22px;
     border: none;
     border-radius: 6px;
@@ -614,15 +609,15 @@ margin-right: 30px;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--timing-function);
 }
-.portfolio-btn:hover,
-.portfolio-btn:focus{
+.catalog__btn:hover,
+.catalog__btn:focus{
     background: var(--accent);
     color: var(--secondary-background-color);
     cursor: pointer;
     box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio-all-btn{
+.catalog__all-btn{
         padding: 6px 22px;
         border: none;
         border-radius: 6px;
@@ -638,13 +633,14 @@ margin-right: 30px;
         transition-duration:var(--transition-duration);
         transition-timing-function: var(--timing-function);
 }
-.portfolio-all-btn:hover,
-.portfolio-all-btn:focus {
+.catalog__all-btn:hover,
+.catalog__all-btn:focus {
     background: var(--main-background-color);
     color:var(--main-text-color);
     cursor: pointer; 
     box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.12);
 }
+
 
 .subtitle{
     font-size: 18px;
