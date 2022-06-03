@@ -46,7 +46,7 @@ img{
     background-color: var(--text-color);
     border-bottom: 1px solid var(--border-color);
 }
-.header-container {
+.header__container {
     display: flex;
     align-items: center;
    }
@@ -71,23 +71,23 @@ ul{
 .header__colortext{
     color:var(--main-text-color);
 }
-.header-navigation__list{
+.navigation__list{
     display: flex;
     padding: 0;
     margin-top: 0;
     margin-bottom: 0;
 }
-.header-navigation__item{
+.navigation__item{
     margin-right: 50px;
 }
-.header-navigation__item:last-child{
+.navigation__item:last-child{
     margin-right: 0;
 }
-.header-navigation__link.current{
+.navigation__link.current{
     color: var(--accent);
     position: relative;
 }
-.header-navigation__link.current::after{
+.navigation__link.current::after{
     content: "";
     position: absolute;
     left: 0;
@@ -97,7 +97,7 @@ ul{
     height: 4px;
     background-color: var(--accent);
 }
-.header-navigation__link{
+.navigation__link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -111,8 +111,8 @@ ul{
     transition-duration: var(--transition-duration);
     transition-timing-function:var(--timing-function) ;
 }
-.header-navigation__link:hover,
-.header-navigation__link:focus {
+.navigation__link:hover,
+.navigation__link:focus {
     color: var(--accent);
 }
 
@@ -169,7 +169,15 @@ fill: currentColor;
 margin-right: 10px;
 }
 
-
+.title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--main-text-color);
+    margin-bottom: 50px 
+}
 /*hero styles*/
 .hero {
     width: 1600px;
@@ -258,7 +266,7 @@ margin-right: 10px;
     padding-top: 0;
 }
 
-.work__title {
+work__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -300,7 +308,7 @@ margin-right: 10px;
 }
 
 /*team*/
-.team__title{
+team__title{
     margin-bottom: 50px;
     font-size: 36px;
     font-weight: 700;
@@ -380,13 +388,13 @@ margin-right: 10px;
 .clients{
 display:flex;
 }
-.clients-item{
+.clients__item{
 margin-right: 30px;
 }
-.clients-item:last-child{
+.clients__item:last-child{
     margin: 0;
 }
-.clients-link{
+.clients__link{
     display:flex;
     align-items: center;
     justify-content: center;
@@ -399,11 +407,11 @@ margin-right: 30px;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--timing-function);
 }
-.clients-link:hover{
+.clients__link:hover{
    border-color: var(--accent);
     fill: var(--accent);
 }
-.clients-link:focus{
+.clients__link:focus{
    border-color: var(--accent);
     fill: var(--accent);
 }
