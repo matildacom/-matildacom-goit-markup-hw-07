@@ -1,8 +1,13 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,AAAA,KAAK,CAAA;EACD,iBAAiB,CAAA,QAAC;EAClB,sBAAsB,CAAA,QAAC;EACvB,YAAY,CAAA,QAAC;EACb,QAAQ,CAAA,QAAC;EACT,kBAAkB,CAAA,QAAC;EACnB,uBAAuB,CAAA,OAAC;EACxB,4BAA4B,CAAA,OAAC;EAC7B,kBAAkB,CAAA,OAAC;EACnB,cAAc,CAAA,OAAC;EACf,mBAAmB,CAAA,QAAC;EACpB,wBAAwB,CAAA,OAAC;EACzB,iBAAiB,CAAA,6BAAC;EAClB,qBAAqB,CAAA,MAAC;CACzB",
     "sources": [
-        "../.vscode/sass/main.scss"
+        "../.vscode/scss/main.scss",
+        "../.vscode/scss/utils/_vars.scss",
+        "../.vscode/scss/utils/_visually-hidden.scss",
+        "../.vscode/scss/base/_common.scss",
+        "../.vscode/scss/base/_container.scss",
+        "../.vscode/scss/base/_reset.scss"
     ],
     "names": [],
     "file": "main.css"
