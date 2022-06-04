@@ -1,13 +1,7 @@
-//utils
-@import './utils/vars';
-@import './utils/visually-hidden';
+//*utils
+@import'./utils/vars';
 
-//base styles
-@import './base/common';
-@import './base/reset';
-@import './base/container';
-
-
-//components
-
-//layouts
+///*base
+@import'./base/common';
+@import'./base/container';
+@import'./base/reset';
