@@ -1,0 +1,33 @@
+.hero__btn {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 700;
+    font-family: inherit;
+    background:var(--accent);
+    color: var(--text-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.submit-button{
+    
+    width: 200px;
+    height: 50px;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    
+    padding-left: 29px;
+    padding-right: 8px;
+    background-color: var(--accent);
+    color: var(--text-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}

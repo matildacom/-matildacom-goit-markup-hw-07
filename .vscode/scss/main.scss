@@ -1,7 +1,12 @@
-//*utils
+//utils
 @import'./utils/vars';
 
-///*base
+//base
 @import'./base/common';
-@import'./base/container';
 @import'./base/reset';
+@import'./base/container';
+
+
+//components
+@import './components/button';
+@import './components/socials';
