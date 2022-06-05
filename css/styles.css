@@ -202,7 +202,7 @@ margin-right: 10px;
     text-align: center;
     
 }
-.hero__title {
+hero__title {
     margin: auto;
     margin-bottom: 30px;
     width: 696px;
@@ -230,7 +230,7 @@ margin-right: 10px;
     border-radius: 4px;
 }
 */
-/*features*/
+
 .features__list {
     font-size: 14px;
     line-height: 1.7;
@@ -246,7 +246,7 @@ margin-right: 10px;
 .features__item:last-child {
     margin-right: 0;}
     
-/*
+
 .features__title {
     font-weight: 700;
     font-size: 14px;
@@ -256,7 +256,7 @@ margin-right: 10px;
     color:var(--main-text-color);
     margin-bottom: 10px;
 }
-*/
+
 .features__box{
     width: 270px;
     height:120px;
@@ -499,7 +499,7 @@ mail:focus{
     justify-content: center;
 }
 
-.social{
+social{
     margin-top: 0;
     margin-right: 109px;
     justify-content: center;
@@ -507,7 +507,7 @@ mail:focus{
     align-items: baseline;
 }
 
-.social__text{
+social__text{
     
     margin-bottom: 20px;
     font-size: 14px;
