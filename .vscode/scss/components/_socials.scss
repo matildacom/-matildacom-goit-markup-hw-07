@@ -11,6 +11,7 @@
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--timing-function);
 
+
 &:hover{   
     background-color: var(--accent);
     fill: var(--secondary-background-color);
@@ -19,6 +20,7 @@
     background-color: var(--accent);
     fill: var(--secondary-background-color);
 }}
+
 .social__list{
     display: flex;
     justify-content: center;
@@ -59,10 +61,10 @@ margin-right: 10px;
         transition-property:background-color;
         transition-duration: var(--transition-duration);
         transition-timing-function: var(--timing-function);
-}
-.social__link--footer:hover{
+
+&:hover{
     background-color: var(--accent);
 }
-.social__link--footer:focus{
+&:focus{
     background-color: var(--accent);
-}
+}}
