@@ -60,7 +60,7 @@ ul{
     padding: 0;
     }
     */
-
+/*
 .header__logo {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -76,6 +76,7 @@ ul{
 .header__colortext{
     color:var(--main-text-color);
 }
+*/
 .navigation__list{
     display: flex;
     padding: 0;
@@ -428,6 +429,7 @@ margin-right: 30px;
     background-color: var(--additional-color);
     
   }
+  /*
   .footer-container{
     display:flex;
     align-items: baseline;
@@ -446,6 +448,7 @@ margin-right: 30px;
 .footer__colortext {
     color: var(--text-color);
 }
+*/
 .address{
     margin-top: 20px;
 }
@@ -514,6 +517,7 @@ mail:focus{
     text-transform: uppercase;
     color: var(--text-color);
 }
+/*
 .social__link--footer{
         display: flex;
         justify-content: center;
@@ -745,6 +749,7 @@ mail:focus{
     border-left:1px solid var(--secondary-border-color) ;
 }
 
+/*
 .backdrop{
     z-index: 10;
     position: fixed;
@@ -961,3 +966,4 @@ mail:focus{
 .form-button:hover {
 background-color: var(--secondary-accent);
 }
+*/
