@@ -499,13 +499,7 @@ mail:focus{
     justify-content: center;
 }
 
-social{
-    margin-top: 0;
-    margin-right: 109px;
-    justify-content: center;
-    display:inline-block;
-    align-items: baseline;
-}
+
 
 social__text{
     
