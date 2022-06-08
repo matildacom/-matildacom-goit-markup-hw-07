@@ -6,11 +6,6 @@
 @import'./base/reset';
 @import'./base/container';
 
-//components
-@import './components/button';
-@import './components/socials';
-@import './components/logo';
-@import './components/modal';
 
 
 //layouts
@@ -24,4 +19,9 @@
 @import './layouts/portfolio-catalog';
 
 
+//components
+@import './components/button';
+@import './components/socials';
+@import './components/logo';
+@import './components/modal';
 

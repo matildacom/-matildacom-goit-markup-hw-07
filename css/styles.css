@@ -183,9 +183,9 @@ margin-right: 10px;
 /*icon-phone{
 fill: currentColor;
 margin-right: 10px;
-}*/
+}
 
-/*hero styles
+hero styles
 
 
 
@@ -218,7 +218,7 @@ hero__title {
     text-transform: uppercase;
     color:var(--text-color);
 }
-/*
+
 .hero__btn {
     width: 200px;
     height: 50px;
@@ -272,7 +272,7 @@ hero__title {
     fill: var(--main-text-color);
     background-color: var(--main-background-color)
 }
-/*work
+work
 
 
 .work {
@@ -280,7 +280,7 @@ hero__title {
     padding-top: 0;
 }
 
-/*
+
 .title{
     margin-bottom: 50px;
     font-weight: 700;
@@ -323,7 +323,7 @@ hero__title {
     background-color: rgba(47, 48, 58, 0.8);
 }
 
-/*team
+team
 
 
 
@@ -364,7 +364,7 @@ hero__title {
     padding-top:30px;
     padding-bottom: 30px;
 }
-/*social-icons
+social-icons
 .social__link{
     display: flex;
     justify-content: center;
@@ -395,8 +395,8 @@ hero__title {
 .social__item:not(:last-child){
 margin-right: 10px;
 }
-*/
-/*clients*
+
+clients
 
 
 
@@ -431,7 +431,7 @@ margin-right: 30px;
     fill: var(--accent);
 }
 
-/*footer
+footer
 
 
 
@@ -441,7 +441,7 @@ margin-right: 30px;
     background-color: var(--additional-color);
     
   }
-  /*
+  
   .footer-container{
     display:flex;
     align-items: baseline;
@@ -493,7 +493,7 @@ margin-right: 30px;
     color: var(--accent);
     color: var(--accent);
 }
- /* tel  {
+    tel  {
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
@@ -533,7 +533,7 @@ social__text{
     text-transform: uppercase;
     color: var(--text-color);
 }
-/*
+
 .social__link--footer{
         display: flex;
         justify-content: center;
