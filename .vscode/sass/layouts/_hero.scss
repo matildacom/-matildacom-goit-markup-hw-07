@@ -1,4 +1,17 @@
 
+
+.hero__title {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 696px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height:1.4;
+    text-align:center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:var(--text-color);
+}
 .hero {
     width: 1600px;
     background-color: var(--additional-color);
@@ -15,16 +28,4 @@
     padding-bottom:200px ;
     text-align: center;
     
-}
-.hero__title {
-    margin: auto;
-    margin-bottom: 30px;
-    width: 696px;
-    font-weight: 900;
-    font-size: 44px;
-    line-height:1.4;
-    text-align:center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color:var(--text-color);
 }
