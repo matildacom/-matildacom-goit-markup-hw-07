@@ -186,7 +186,7 @@ margin-right: 10px;
 }*/
 
 /*hero styles*/
-.hero {
+hero {
     width: 1600px;
     background-color: var(--additional-color);
     background-image:
